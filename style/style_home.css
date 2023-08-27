@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+.titulo{
+    margin-left: 10%;
+}
+
+.titulo h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.container-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.redes_sociais{
+    width: 15%;
+}
+
+.redes_sociais a img{
+    width:30px;
+    margin-left: 5%;
+}
+
+.container_img_inicial{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.text_inicial{
+    width: 100%;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+
+.text_inicial h1, h3{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text_inicial button{
+    background: black;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px #eee;
+    text-shadow: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 40%;
+}
