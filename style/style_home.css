@@ -158,16 +158,97 @@ li{
 
 .titulo_exp_mun{
     width: 100%;
+    margin-top: 2%;
     
 }
 
 .texto_exp_mundo{
     padding-top: 40px;
-    height: 300px;
+    height: 150px;
 }
 
 .texto_exp_mundo h1{
     text-align: center;
     font-size: 60px;
     padding-bottom: 10px;
+}
+
+.noticias_fotos{
+    width: 80% !important ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.noticia_mar{
+    background-image: url("https://cdn.pixabay.com/photo/2023/08/19/05/31/green-sea-turtle-8199770_1280.jpg");
+    background-position: center center;
+    width:300px;
+    height: 600px;
+}
+
+.noticia_mar h1, p{
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+.noticia_natureza{
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/08/15/29/squirrel-3662681_1280.jpg");
+    background-position: center center;
+    width:300px;
+    height: 600px;
+}
+
+.noticia_natureza h1, p{
+    text-align: center;
+}
+
+.noticia_natureza h1{
+    margin-top: 99%;
+}
+
+.noticia_repteis{
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/23/18/11/reptile-1003417_1280.jpg");
+    background-position: center center;
+    width:300px;
+    height: 600px;
+    color: #000000;
+}
+
+.noticia_repteis h1{
+    margin-top: 70%;
+}
+
+.noticia_repteis h1, p{
+    text-align: center;
+}
+
+.elefantes{
+    background-image: url("https://cdn.pixabay.com/photo/2019/08/06/23/52/elephant-4389434_1280.jpg");
+    background-position: center center;
+    margin-top: 5%;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+}
+
+.texto_elefantes{
+    width: 600px;
+    padding: 15% 20%;
+}
+
+.texto_elefantes h1, p{
+    text-align: center;
+}
+
+.cavalos{
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/14/21/14/animals-6795732_1280.jpg");
+    background-position: center center;
+    margin-top: 5%;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
 }
