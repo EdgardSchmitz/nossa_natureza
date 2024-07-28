@@ -116,7 +116,7 @@ li{
     display: block;
 }
 
-.container_central{
+.container_central_top{
     
 }
 
@@ -140,15 +140,35 @@ li{
   margin-top: 5%;
 }
 
-.container_animais{
-    width: 25%;
+.container_central_down{
+  
+  margin: 10% 10% 0 10%;
+  display: flex;
+}
+
+.container_central_down1{
+  
+  margin: 2% 10%;
+  display: flex;
+}
+
+.animal{
+  padding: 10px 5px;
+  max-width: 75%;
+  
+}
+
+.animal h4{
+  text-align: center;
+}
+
+.animal img{
+  padding-top: 10px;
+  width:200px;
+  
 }
 
 
-
-
-
-/* Footer styles */
 .footer {
     background-color: #333;
     color: #fff;
@@ -157,7 +177,19 @@ li{
     margin-top: 5%;
 }
 
+.footer_top{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+.footer_top p{
+  color: #f5484;
+  margin-top: 30%;
+}
+
 .footer-content {
+  padding-top: 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
