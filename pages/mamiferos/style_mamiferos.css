@@ -117,16 +117,34 @@ li{
 }
 
 .container_central{
-    display: flex;
+    
 }
 
-.container_esquerdo{
-    width: 75%;
+.container_explicacao{
+  display: flex;
+  margin-top: 10%;
 }
 
-.container_direito{
+.img_questao img{
+  width: 400px;
+  margin-left: 30%;
+}
+
+.cx_texto{
+  text-align: center;
+  padding-left: 10%;
+  width: 800px;
+}
+
+.cx_texto p{
+  margin-top: 5%;
+}
+
+.container_animais{
     width: 25%;
 }
+
+
 
 
 
